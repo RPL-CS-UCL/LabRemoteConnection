@@ -72,6 +72,7 @@ You can either use rdesktop or reminna.
 
 For now we will use rdeskop, install it by the following command.
 
+
 ```
 sudo apt install rdesktop
 ```
@@ -83,6 +84,8 @@ rdesktop -f ip_address
 ```
 
 Note the -f denotes full screen.
+
+Note: you can use ```-g 100%``` to have windowed fullscreen.
 
 You will then be prompted with a login screen.
 
